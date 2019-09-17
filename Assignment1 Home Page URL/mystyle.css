@@ -1,0 +1,33 @@
+/* Raheel Jooma Sept. 15 2019 */
+
+/*Fonts*/
+	*{font-family:sans-serif;}
+
+/* Body */
+	body{background-color:#ffffff;}
+
+/* Headings */
+	h1{color:black; text-align:center;}
+	h2{color:black; text-align:left;}
+
+/* Images */
+	img{display:block; margin-left:auto; margin-right:auto}
+
+/* Lists */
+	ul,li{color:orange;}
+
+/* Links */
+	a:link{color:green; text-align:center;} /* Unvisited Link */
+	a:visited{color:grey; text-align:center;} /* Visited Link */
+	a:hover{color:blue;} /* Hover Link */
+
+/* Paragraphs */
+	p{color:black;}
+
+/* Span Tags */
+	#redAndBold{color:red; font-weight:bold;}
+
+/* Tables */
+	table {border-collapse:collapse; width:100%;}
+	td, th {text-align:left; padding:8px;}
+	tr:nth-child(even) {background-color:lightgrey;}
