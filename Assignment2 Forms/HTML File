@@ -1,1 +1,118 @@
+ <!DOCTYPE html>
+<html>
+<title>SpeedyPC Job Application Form</title>
+<body>
+	<h1>SpeedyPC Job Application Form</h1>
+	<hr>
+	
+	<FORM METHOD="post" ACTION="mailto:rjooma2@student.gsu.edu">
+		<br>
+		<b>Position Applied For:</b> <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="position" autofocus>
+		Job Reference Code: <INPUT TYPE="text" SIZE="20" MAXLENGTH="20" NAME="referenceCode">
+		<hr>
+		<br>
 
+		First Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="firstName">
+		<br>
+		Last Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="lastName">
+		<br>
+		Nationality: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="nationality">
+		<br>
+		Date of Birth: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" VALUE="DD/MM/YYYY">
+		<br>
+
+		Address:
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+
+		Telephone: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="telephone" REQUIRED>
+		Email: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="email" REQUIRED>
+		<hr>
+		<br>
+
+		<b>Educational History</b>
+		<br>
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+		School/College, Course Studied, Qualifications Received, Grades:
+		<br>
+		<br>
+
+		<b>Employment History</b>
+		<br>
+		Employer, Date (Max 10 years ago), Position/responsibilities:
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+		<br>
+
+		<b>Personal Statement</b>
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+		<br>
+		<hr>
+		<br>
+
+		<b>YEARS OF WORK EXPERIENCE:</b>
+		<br>
+		<br>
+		<hr>
+		<br>
+
+		<b>First Referee Details</b>
+		<br>
+		<br>
+		First Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="firstRefereeName">
+		Family Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="familyName">
+		<br>
+		Title: <INPUT TYPE="text" SIZE="10" MAXLENGTH="10" NAME="title">
+		Occupation: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="occupation">
+		<br>
+		Relationship: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="relationship">
+		<br>
+		Address:
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+		Telephone: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="telephone">
+		Email: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="email">
+		<br>
+		<br>
+
+		<b>Second Referee Details</b>
+		<br>
+		<br>
+		First Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="firstRefereeName">
+		Family Name: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="familyName">
+		<br>
+		Title: <INPUT TYPE="text" SIZE="10" MAXLENGTH="10" NAME="title">
+		Occupation: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="occupation">
+		<br>
+		Relationship: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="relationship">
+		<br>
+		Address:
+		<br>
+		<textarea rows="4" cols="20">
+		</textarea>
+		<br>
+		Telephone: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="telephone">
+		Email: <INPUT TYPE="text" SIZE="40" MAXLENGTH="40" NAME="email">
+		<br>
+		<br>
+		<hr>
+		<br>
+		
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+	</FORM>
+</body>
+</html> 
